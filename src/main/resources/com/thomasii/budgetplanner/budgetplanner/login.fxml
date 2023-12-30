@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="970.0" styleClass="root" stylesheets="@loginStyle.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thomasii.budgetplanner.budgetplanner.loginController">
+   <children>
+      <TextField layoutX="341.0" layoutY="227.0" prefHeight="33.0" prefWidth="283.0" />
+      <Label layoutX="342.0" layoutY="201.0" style="-fx-font-weight: bold;" text="Username" />
+      <ImageView fitHeight="118.0" fitWidth="253.0" layoutX="357.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../brand1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="343.0" layoutY="277.0" style="-fx-font-weight: bold;" text="Password" />
+      <CheckBox layoutX="345.0" layoutY="367.0" mnemonicParsing="false" text="Keep me sign in" />
+      <Button layoutX="344.0" layoutY="399.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="283.0" styleClass="login-button" text="Login" />
+      <Label layoutX="431.0" layoutY="452.0" styleClass="create-account" text="Create an account" />
+      <PasswordField layoutX="342.0" layoutY="301.0" prefHeight="33.0" prefWidth="283.0" />
+      <Label layoutX="548.0" layoutY="281.0" styleClass="forget-password" text="Forgot password?" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+.root {
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-font-size: 13px;
+    -fx-text-fill: #191919;
+    -fx-background-color: #F4F5F7;
+    -fx-alignment: center;
+}
+
+/* Login form */
+.forget-password {
+    -fx-font-size: 9;
+    -fx-font-weight: bold;
+    -fx-text-fill: #999DA3;
+}
+.forget-password:hover {
+    -fx-cursor: hand;
+}
+.create-account {
+    -fx-text-fill: #999DA3;
+    -fx-font-weight: bold;
+}
+.create-account:hover {
+    -fx-cursor: hand;
+}
+.login-button {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #299D91;
+    -fx-font-weight: bold;
+}
+.login-button:hover {
+    -fx-cursor: hand;
+
+}
